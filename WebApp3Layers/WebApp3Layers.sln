@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.37628.2 d17.14
+VisualStudioVersion = 17.14.37628.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp3Layers", "WebApp3Layers\WebApp3Layers.csproj", "{F6403397-2B5D-478B-B442-E9AC34AE89A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{8A2F2D91-E3B5-4079-BBA0-50BC8B77D0E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{276F2724-116C-46D6-8A8E-044124DB4CCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F6403397-2B5D-478B-B442-E9AC34AE89A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F6403397-2B5D-478B-B442-E9AC34AE89A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6403397-2B5D-478B-B442-E9AC34AE89A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A2F2D91-E3B5-4079-BBA0-50BC8B77D0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2F2D91-E3B5-4079-BBA0-50BC8B77D0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2F2D91-E3B5-4079-BBA0-50BC8B77D0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2F2D91-E3B5-4079-BBA0-50BC8B77D0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{276F2724-116C-46D6-8A8E-044124DB4CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{276F2724-116C-46D6-8A8E-044124DB4CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{276F2724-116C-46D6-8A8E-044124DB4CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{276F2724-116C-46D6-8A8E-044124DB4CCC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
